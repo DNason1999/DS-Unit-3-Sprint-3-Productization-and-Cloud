@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Sprint Challenge 3 </title>
+  </head>
+
+  <body>
+    <h1> Sprint Challenge 3</h1>
+    <div style="display: inline-block;">
+        <h4> Measurements: </h4>
+        <form action = '/refresh'> 
+            <input type="submit" value="Refresh Measurements">
+        </form>
+    </div>
+    
+    {% block content %}
+    {% for measure in measurements %}
+        <li> {{ measure }} </li>
+    {% endfor %}
+    {% endblock %}
+  </body>
+
+</html>
