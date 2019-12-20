@@ -1,0 +1,1 @@
+web: gunicorn SCAPP:APP -t 120
