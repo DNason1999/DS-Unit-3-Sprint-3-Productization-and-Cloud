@@ -1,4 +1,4 @@
-from flask_sqlalchemy import SQLAlchemy
+cocodefrom flask_sqlalchemy import SQLAlchemy
 
 DB = SQLAlchemy()
 

@@ -13,6 +13,7 @@ py-openaq = "*"
 pandas = "*"
 seaborn = "*"
 matplotlib = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
